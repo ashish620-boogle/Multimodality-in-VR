@@ -1,9 +1,5 @@
 # Multi-Modality in Virtual Reality
 
-**Course:** EEL71010: Mobile AR and VR
-**Student:** Ashish Kumar (M24AIR003)
-**Report:** Progress Report-1
-
 ## 1. Objective
 
 The project aims to integrate visual, haptic, and spatial audio feedback into a Virtual Reality Environment. The user is given a spherical ball in virtual reality to explore the surface of the ball. This project focuses on the following implementation:
