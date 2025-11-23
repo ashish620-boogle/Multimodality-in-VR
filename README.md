@@ -1,15 +1,25 @@
 # Multimodality in VR
 
-This project explores multimodality in Virtual Reality, focusing on haptics and audio integration.
+This project explores multimodality in Virtual Reality, focusing on the integration of haptics and spatial audio to enhance user immersion.
 
 ## Overview
 
-The "Multimodality-in-VR" project investigates how combining different sensory modalities—specifically haptics and spatial audio—can enhance immersion and presence in VR environments.
+The "Multimodality-in-VR" project investigates how combining different sensory modalities—specifically haptics and spatial audio—can create a more persuasive sense of presence in VR environments.
 
-**Key Features:**
-*   **Haptics Integration:** Implements haptic feedback mechanisms.
-*   **Spatial Audio:** Utilizes Steam Audio for realistic sound propagation.
-*   **Networking:** Includes networking components for potential multiplayer or client-server interactions.
+## Implementation Details
+
+### 1. Initial Phase: Separate Setup
+The project began by implementing and validating the two core sensory modalities independently:
+*   **Haptics:** Setup and calibration of the **Omni haptic device** to provide precise tactile feedback.
+*   **Spatial Audio:** Integration of **Steam Audio** to enable realistic sound propagation, occlusion, and spatialization.
+
+### 2. Integration Strategy: TCP Networking
+A significant architectural challenge was the physical separation of the hardware components. The Head Mounted Display (HMD) is designed to handle vision and spatial audio, while the Omni haptic device operates as a distinct peripheral.
+
+To unify these systems, we implemented a **TCP networking** solution:
+*   **HMD (Client):** Responsible for the visual rendering and spatial audio processing. It detects user interactions within the virtual environment.
+*   **Omni Device (Server):** Dedicated to controlling the haptic feedback mechanisms.
+*   **Synchronization:** The HMD communicates interaction events (e.g., touching a virtual object) via TCP to the Omni controller. This ensures that the haptic feedback is perfectly synchronized with the visual and auditory cues, creating a cohesive multimodal experience.
 
 ## Project Report
 
@@ -20,8 +30,9 @@ For a detailed conceptual overview and report on this project, please refer to t
 
 ### Prerequisites
 
-*   **Unity Version:** [UNITY_VERSION_PLACEHOLDER]
+*   **Unity Version:** 6000.0.34f1
 *   **Platforms:** Android (Oculus/Meta Quest), PC Standalone
+*   **Hardware:** VR Headset (Oculus/Meta Quest), Omni Haptic Device
 
 ### Installation
 
