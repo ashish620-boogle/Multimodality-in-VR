@@ -46,9 +46,8 @@ For a detailed conceptual overview and report on this project, please refer to t
 ## Structure
 
 *   `Assets/`: Contains all source code, scenes, and resources.
-*   `prr.pdf`: Project Report.
 *   `haptic_app.apk`: Pre-built Android package (if applicable).
 
 ## License
 
-[License Information]
+You will need a Unity license to install and run Unity, which has a free version available.
