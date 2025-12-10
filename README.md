@@ -21,10 +21,17 @@ To unify these systems, we implemented a **TCP networking** solution:
 *   **Omni Device (Server):** Dedicated to controlling the haptic feedback mechanisms.
 *   **Synchronization:** The HMD communicates interaction events (e.g., touching a virtual object) via TCP to the Omni controller. This ensures that the haptic feedback is perfectly synchronized with the visual and auditory cues, creating a cohesive multimodal experience.
 
-## Project Report
+## Project Demonstration
 
-For a detailed conceptual overview and report on this project, please refer to the included PDF:
-[**prr.pdf**](./prr.pdf)
+
+
+
+https://github.com/user-attachments/assets/a036b49e-a117-408c-ab34-f5a2d7b51700
+
+
+
+https://github.com/user-attachments/assets/9e69e97c-dfb0-4f4e-8fd1-7e86892653bd
+
 
 ## Getting Started
 
