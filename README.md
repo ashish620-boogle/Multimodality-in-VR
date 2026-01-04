@@ -23,13 +23,13 @@ To unify these systems, we implemented a **TCP networking** solution:
 
 ## Project Demonstration
 
-
+Here, spatial audio is integrated into the VR object. This can be verified by the user moving their head in either direction, the audio seems to move in the opposite direction of the head.
 
 
 https://github.com/user-attachments/assets/a036b49e-a117-408c-ab34-f5a2d7b51700
 
 
-
+Here, all modalities (spatial audio, touch, and visual sensation) are integrated into a single working system. For haptics, the Omni device is used, which communicates with the client (head-mounted device) through a PC to render haptics into the scene.
 
 https://github.com/user-attachments/assets/16b46ca3-9668-484a-8404-0da200807083
 
